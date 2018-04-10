@@ -540,46 +540,46 @@
       },
       "PIA_DEF_MENM": {
         "name": "Ameaças que podem levar a uma modificação indesejada de dados pessoais",
-        "description": "<strong>Ameaças sobre : </strong><br>- <strong>Hardware</strong> altered (addition of incompatible hardware resulting in malfunctions, removal of essential components, etc.)<br>- <strong>Software</strong> used inappropriately or altered (Unwanted modifications to data in databases, operator errors that modify data, etc.)<br>- <strong>Computer channels</strong> used inappropriately (resending of intercepted data, etc.)<br>- <strong>People</strong> overloaded or manipulates (assignment of staff to tasks beyond their abilities, stress or negative changes in working conditions, influence, etc.)<br>- Paper documents that have been altered (changes to figures in a file, replacement of an original by a forgery, etc.)<br>- <strong>Paper transmission channels</strong> that have been altered (change from one signature book to another, sending of multiple conflicting documents, etc.)",
+        "description": "<strong>Ameaças sobre : </strong><br>- <strong>Hardware</strong> alterado (adição de hardware incompatível resultando em mau funcionamento, remoção de componentes essenciais, etc.)<br>- <strong>Software</strong> usado de forma inadequada ou alterada (modificações indesejadas nos dados em bancos de dados, erros do operador que modificam dados etc.)<br>- <strong>Canais de computador</strong> usado de forma inadequada (reenvio de dados interceptados, etc.)<br>- <strong>Pessoas</strong> sobrecarregado ou manipula (atribuição de pessoal para tarefas além de suas habilidades, stress ou mudanças negativas nas condições de trabalho, influência, etc.)<br>- Documentos em papel que foram alterados (alterações em figuras de um arquivo, substituição de um original por uma falsificação, etc.)<br>- <strong>Canais de transmissão em papel</strong> que foram alterados (mudança de um livro de assinaturas para outro, envio de múltiplos documentos conflitantes, etc.)",
         "source": "PIAF Connected Objects p43 and 44, WIKI"
       },
       "PIA_DEF_MENI": {
-        "name": "Threats that can lead to a disappearance of personal data",
-        "description": "<strong>Threats regarding : </strong><br>- <strong>Hardware</strong> : used inappropriately, overloaded, altered, damaged, lost (storage unit full, processing capacity overload, addition of incompatible hardware resulting in malfunctions,  fire, theft or loss of an asset, etc.)<br>- <strong>Software</strong> : used inappropriately, overloaded, altered, damaged, lost (erasure of data, exceeding of database size, logic bomb, non-renewal of the licence for software used to access data, etc.)<br>- <strong>Computer channels</strong> : overloaded, altered, lost (unauthorised downloading, loss of Internet connection, etc.)<br>- <strong>People</strong> : overloaded, damaged, lost (poor use of skills, disease, retirement, etc.)<br>- <strong>Paper documents</strong> : used inappropriately, damaged, lost (erasure, aging of archived documents, theft or loss of documents, etc.)<br>- <strong>Paper transmission channels</strong> : overloaded, damaged, altered, lost (mail delivery halted by a strike, reassignment of offices or premises, loss of a document delivery company, reorganisation of paper transmission channels, etc.)",
+        "name": "Ameaças que levam ao desaparecimento de dados pessoais",
+        "description": "<strong>Ameaças sobre: </strong><br>- <strong>Hardware</strong> : usado indevidamente, sobrecarregado, alterado, danificado, perdido (unidade de armazenamento cheia, sobrecarga de capacidade de processamento, adição de hardware incompatível, resultando em mau funcionamento, incêndio, roubo ou perda de um ativo, etc.)<br>- <strong>Software</strong> : usado de forma inadequada, sobrecarregada, alterada, danificada, perdida (apagamento de dados, excesso de tamanho do banco de dados, bomba lógica, não renovação da licença para software usado para acessar dados, etc.)<br>- <strong>Canais de computador</strong> : sobrecarregado, alterado, perdido (download não autorizado, perda de conexão com a Internet, etc.)<br>- <strong>Pessoas</strong> : sobrecarregado, danificado, perdido (mau uso de habilidades, doença, aposentadoria, etc.)<br>- <strong>Documentos em papel</strong> : usado de forma inadequada, danificado, perdido (apagamento, envelhecimento de documentos arquivados, roubo ou perda de documentos, etc.)<br>- <strong>Canais de transmissão em papel</strong> : sobrecarregado, danificado, alterado, perdido (entrega de correio interrompida por uma greve, reatribuição de escritórios ou instalações, perda de uma empresa de entrega de documentos, reorganização de canais de transmissão de papel, etc.)",
         "source": "PIAF Connected Objects p44 and 45, WIKI"
       },
       "PIA_DEF_GRV": {
-        "name": "Severity",
-        "description": "Severity represents the magnitude of a risk. It primarily depends on the prejudicial nature of the potential impacts.",
+        "name": "Gravidade",
+        "description": "Gravidade representa a magnitude de um risco. Depende principalmente da natureza prejudicial dos possíveis impactos.",
         "source": "PIA1 page 6"
       },
       "PIA_DEF_VRA": {
-        "name": "Likelihood",
-        "description": "Likelihood expresses the possibility of a risk occurring. It primarily depends on the level of vulnerabilities of the supporting assets when under threat and the level of capabilities of the risk sources to exploit them.",
+        "name": "Probabilidade",
+        "description": "Probabilidade expressa a possibilidade de ocorrer um risco. Depende principalmente do nível de vulnerabilidades dos ativos de suporte quando sob ameaça e do nível de recursos das fontes de risco para explorá-los.",
         "source": "PIA1 page 6"
       },
       "PIA_DEF_PBDS": {
-        "name": "Project Management",
-        "description": "Measures taken to integrate the protection of personal data in all new processing operations (trusted names, guidelines, CNIL methodology for risk management or other internal methodology).",
+        "name": "Gerenciamento de projetos",
+        "description": "Medidas tomadas para integrar a proteção de dados pessoais em todas as novas operações de processamento (nomes confiáveis, diretrizes, metodologia CNIL para gerenciamento de risco ou outra metodologia interna).",
         "source": "Mesures_US"
       },
       "PIA_DEF_VIOL": {
-        "name": "Personal data breach",
-        "description": "Breach of security leading to the accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to, personal data transmitted, stored or otherwise processed.",
+        "name": "Violação de dados pessoais",
+        "description": "Violação de segurança que leva à destruição acidental ou ilegal, perda, alteração, divulgação não autorizada ou acesso a dados pessoais transmitidos, armazenados ou processados de outra forma.",
         "source": "GDPR Art. 4.12"
       },
       "PIA_VAL_CART": {
-        "name": "Mapping of risks",
-        "description": "Graph illustrating the good security practices, with a conformity value attributed to each on the basis of its assessment in previous steps.",
+        "name": "Mapeamento de riscos",
+        "description": "Gráfico que ilustra as boas práticas de segurança, com um valor de conformidade atribuído a cada uma com base em sua avaliação em etapas anteriores.",
         "source": "PIAF Connected Objects p34"
       },
       "PIA_VAL_ACT": {
-        "name": "Action plan",
-        "description": "corrective controls suggested by the assessor in previous steps, drawing up an action plan setting out, for each action, its manager, frequency, difficulty, cost and progress.",
-        "source": "None"
+        "name": "Plano de ação",
+        "description": "Controlos corretivos sugeridos pelo avaliador nas etapas anteriores, elaborando um plano de ação definindo, para cada ação, seu gerente, frequência, dificuldade, custo e progresso.",
+        "source": "Nenhum"
       },
       "PIA_DEF_ENJ": {
-        "name": "Stakes",
+        "name": "Participações",
         "description": "Expected benefits (for the organisation, for the data subjects, for society in general, etc.).",
         "source": "PIA1 p4 footnote 8"
       },
