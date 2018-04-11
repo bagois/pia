@@ -580,12 +580,12 @@
       },
       "PIA_DEF_ENJ": {
         "name": "Participações",
-        "description": "Expected benefits (for the organisation, for the data subjects, for society in general, etc.).",
+        "description": "Benefícios esperados (para a organização, para os titulares dos dados, para a sociedade em geral, etc.).",
         "source": "PIA1 p4 footnote 8"
       },
       "PIA_DEF_ST": {
         "name": "Processor",
-        "description": "Natural or legal person, public authority, agency or other body which processes personal data on behalf of the controller, see <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">Art. 4.8 of [GDPR]</a>.<br>The processor and any person acting under the authority of the controller or of the processor, who has access to personal data, shall not process those data except on instructions from the controller, unless required to do so by Union or Member State law, see <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">Art. 29 of [GDPR]</a>.",
+        "description": "Pessoa singular ou coletiva, autoridade pública, agência ou outro organismo que processa dados pessoais em nome do responsável pelo tratamento, ver <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">Art. 4.8 de [RGPD]</a>.<br>O processador e qualquer pessoa que atue sob a autoridade do responsável pelo tratamento ou do processador, que tenha acesso a dados pessoais, não devem processar esses dados, salvo instruções do responsável pelo tratamento, a menos que tal seja exigido pela legislação da União ou do Estado-Membro, ver <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">Art. 29 de [RGPD]</a>.",
         "source": "GDPR Art. 4.8 and 29"
       },
       "PIA_DEF_RGPD": {
