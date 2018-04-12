@@ -584,118 +584,118 @@
         "source": "PIA1 p4 footnote 8"
       },
       "PIA_DEF_ST": {
-        "name": "Processor",
+        "name": "Processador",
         "description": "Pessoa singular ou coletiva, autoridade pública, agência ou outro organismo que processa dados pessoais em nome do responsável pelo tratamento, ver <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">Art. 4.8 de [RGPD]</a>.<br>O processador e qualquer pessoa que atue sob a autoridade do responsável pelo tratamento ou do processador, que tenha acesso a dados pessoais, não devem processar esses dados, salvo instruções do responsável pelo tratamento, a menos que tal seja exigido pela legislação da União ou do Estado-Membro, ver <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">Art. 29 de [RGPD]</a>.",
         "source": "GDPR Art. 4.8 and 29"
       },
       "PIA_DEF_RGPD": {
-        "name": "GDPR (General Data Protection Regulation",
-        "description": "Regulation on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC.",
+        "name": "RGPD (Regulamento Geral de Proteção de Dados)",
+        "description": "Regulamento relativo à protecção das pessoas singulares no que diz respeito ao tratamento de dados pessoais e à livre circulação desses dados e que revoga a Directiva 95/46/CE.",
         "source": "GDPR title"
       },
       "PIA_DEF_PC": {
-        "name": "Data subject",
-        "description": "Persons to whom the data covered by the processing relate.",
+        "name": "Titular de dados",
+        "description": "Pessoas a quem os dados abrangidos pelo tratamento dizem respeito.",
         "source": "PIA1 p9"
       },
       "PIA_DEF_MIN3": {
-        "name": "Reducing the identifying nature of data",
-        "description": "The system can ensure that: <br>- the user can use a resource or service without the risk of disclosing his/her identity (anonymous data)<br>- the user can use a resource or service without the risk of disclosing his/her identity, but remain identifiable and responsible for this use (pseudonymous data)<br>- the user can make multiple uses of resources or services without the risk of these different uses being linked together (data cannot be correlated)<br>- the user can use a resource or service without the risk of others, third parties in particular, being able to observe that the resource or service is being used (non-observability)<br>The choice of a method from the list above must be made on the basis of the threats identified. For some types of threat to privacy, pseudonymization will be more appropriate than anonymisation (for example, if there is a traceability need). In addition, some threats to privacy will be addressed using a combination of methods.",
+        "name": "Reduzindo a natureza identificadora dos dados",
+        "description": "O sistema pode garantir que: <br>- o usuário pode usar um recurso ou serviço sem o risco de revelar sua identidade (dados anônimos)<br>- o usuário pode usar um recurso ou serviço sem o risco de revelar sua identidade, mas permanecer identificável e responsável por esse uso (dados pseudônimos)<br>- o usuário pode fazer múltiplos usos de recursos ou serviços sem o risco de esses diferentes usos serem vinculados (dados não podem ser correlacionados)<br>- o usuário pode usar um recurso ou serviço sem o risco de outros, em particular terceiros, serem capazes de observar que o recurso ou serviço está sendo usado (não observável)<br>A escolha de um método da lista acima deve ser feita com base nas ameaças identificadas. Para alguns tipos de ameaça à privacidade, a pseudonimização será mais apropriada do que a anonimização (por exemplo, se houver uma necessidade de rastreabilidade). Além disso, algumas ameaças à privacidade serão abordadas usando uma combinação de métodos.",
         "source" : "PIAF Connected objects p42 - WIKI"
       },
       "PIA_DEF_MIN4": {
-        "name": "Reducing data accumulation",
-        "description": "The system can be organised into independent parts with separate access control functions. The data can also be divided between these independent sub-systems and controlled by each sub-system using different access control mechanisms. If a sub-system is compromised, the impacts on all of the data can thus be reduced.",
+        "name": "Reduzindo acumulação de dados",
+        "description": "O sistema pode ser organizado em partes independentes com funções separadas de controle de acesso. Os dados também podem ser divididos entre esses subsistemas independentes e controlados por cada subsistema usando diferentes mecanismos de controle de acesso. Se um subsistema for comprometido, os impactos em todos os dados podem ser reduzidos.",
         "source": "PIAF Connected objects p42 - WIKI"
       },
       "PIA_DEF_MIN5": {
-        "name": "Restricting data access",
-        "description": "The system can limit data access according to the \"need to know\" principle. The system can separate the sensitive data and apply specific access control policies. The system can also encrypt sensitive data to protect their confidentiality during transmission and storage. Access to temporary cookies which are produced during the data processing must also be protected.",
+        "name": "Restringindo o acesso de dados",
+        "description": "O sistema pode limitar o acesso aos dados de acordo com o princípio de 'necessidade de saber'. O sistema pode separar os dados confidenciais e aplicar políticas específicas de controlo de acesso. O sistema também pode criptografar dados confidenciais para proteger sua confidencialidade durante a transmissão e o armazenamento. O acesso a cookies temporários produzidos durante o processamento de dados também deve ser protegido.",
         "source": "PIAF Connected objects p42 - WIKI"
       },
       "PIA_EX_DCPC": {
-        "name": "Common personal data",
-        "description": "<strong>Identification data</strong> : Civil status, identity, age, etc. <br><strong>Personal life</strong> : living habits, marital status, etc. <br><strong>Professional life </strong> : résumé, education and professional training, awards, etc. <br><strong>Connection data </strong> : IP addresses, event logs, etc.<br><strong>Location data</strong> : travels, GPS data, GSM data, etc.<br><strong>Others</strong> : phone number, email address, etc.",
+        "name": "Dados pessoais comuns",
+        "description": "<strong>Dados de identificação</strong> : Estado civil, identidade, idade, etc. <br><strong>Vida pessoal</strong> : hábitos de vida, estado civil, etc. <br><strong>Vida profissional </strong> : currículo, educação e formação profissional, prémios, etc. <br><strong>Dados de conexão </strong> : Endereços IP, logs de eventos, etc.<br><strong>Dados de localização</strong> : viagens, dados GPS, dados GSM, etc.<br><strong>Outros</strong> : número de telefone, endereço de e-mail, etc.",
         "source": "PIA2 old version - WIKI"
       },
       "PIA_EX_DCPS": {
-        "name": "Personal data perceived as sensitive",
-        "description": "Social security number (NIR), biometric data, bank data",
+        "name": "Dados pessoais percebidos como sensíveis",
+        "description": "Número de segurança social (NISS), dados biométricos, dados bancários",
         "source": "PIA2 old version - WIKI"
       },
       "PIA_EX_DCPR": {
-        "name": "Convictions and sensitive personal data",
-        "description": "Philosophical, political, religious and trade-union views, sex life, health data, racial or ethnic origin, data concerning health or sex life, offenses, convictions, security measures, see <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">Art. 9 and 10 of [GDPR]</a>.",
+        "name": "Convições e dados pessoais sensíveis",
+        "description": "Opiniões filosóficas, políticas, religiosas e sindicais, vida sexual, dados de saúde, origem racial ou étnica, dados relativos à saúde ou à vida sexual, crimes, condenações, medidas de segurança, ver <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">Art. 9 e 10 de [RGPD]</a>.",
         "source": "PIA2 old version, GDPR Article 9 and 10 - WIKI"
       },
       "PIA_EX_HUMI": {
-        "name": "Internal human sources",
-        "description": "It could be either:<br>- a negligent or rogue employee, proximity of the system, skills, privileges and available time are potentially high, possible lack of training and awareness<br>- negligent or rogue user, family member or friend having access to the service.<br> Various motives are possible, including : clumsiness, error, negligence game, malicious intent, revenge, spying",
+        "name": "Fontes humanas internas",
+        "description": "Pode ser qualquer:<br>- um funcionário negligente ou desonesto, proximidade do sistema, habilidades, privilégios e tempo disponível são potencialmente altos, possível falta de treino e consciencialização<br>- usuário negligente ou desonesto, membro da família ou amigo tendo acesso ao serviço.<br> Vários motivos são possíveis, incluindo: falta de jeito, erro, jogo de negligência, intenção maliciosa, vingança, espionagem",
         "source": "PIAF Connected objects p41 - WIKI"
       },
       "PIA_EX_HUME": {
-        "name": "External human sources",
-        "description": "It could be either:<br>- a rogue or naive neighbor, by having a physical proximity, hacking into the device's data;<br>- a hacker targeting a user by using the knowledge he/she has of the user and some of the information concerning him/her;<br>- a hacker targeting one of the companies by using the knowledge he/she has of the companies that can undermine their image;<br>- an authorised third party company using its privileged access to illegitimately access information.",
+        "name": "Fontes humanas externas",
+        "description": "Pode ser qualquer:<br>- um vagabundo ou vizinho ingénuo, por ter uma proximidade física, invadindo os dados do dispositivo;<br>- um hacker que tenha como alvo um usuário usando o conhecimento que ele tem do usuário e algumas informações sobre ele/ela;<br>- um hacker visando uma das empresas usando o conhecimento que possui das empresas que podem prejudicar sua imagem;<br>- uma empresa terceirizada autorizada, utilizando seu acesso privilegiado a informações acessadas ilegitimamente.",
         "source": "PIAF Connected objects p41 - WIKI"
       },
       "PIA_EX_NHUM": {
-        "name": "Non-human sources",
-        "description": "Incident or damage at one of the organisation (power cut, fire, flood, etc.)",
+        "name": "Fontes não humanas",
+        "description": "Incidente ou dano em uma das organizações (corte de energia, incêndio, inundação, etc.)",
         "source": "PIAF Connected objects p41 - WIKI"
       },
       "PIA_EX_IMPN": {
-        "name": "Negligible impact",
-        "description": "Data subjects either will not be affected or may encounter a few inconveniences, which they will overcome without any problem. For example:<br>- physical : transient headaches;<br>- material : loss of time in repeating formalities or waiting for them to be fulfilled, receipt of unsolicited mail (e.g.: spams), reuse of data published on websites for the purpose of targeted advertising , etc.;<br>- moral : mere annoyance, feeling of invasion of privacy without real or objective harm (commercial intrusion), etc.",
+        "name": "Impacto insignificante",
+        "description": "Os titulares dos dados não serão afetados ou poderão encontrar alguns inconvenientes, que serão superados sem qualquer problema. Por exemplo:<br>- físico : dores de cabeça transitórias;<br>- material : perda de tempo na repetição de formalidades ou espera pelo preenchimento, recebimento de correspondências não solicitadas (ex .: spams), reutilização de dados publicados em sites para fins de publicidade direcionada, etc.;<br>- moral : mera irritação, sensação de invasão de privacidade sem dano real ou objetivo (invasão comercial), etc.",
         "source": "PIAF Connected Objects p41 - WIKI"
       },
       "PIA_EX_IMPL": {
-        "name": "Limited impact",
-        "description": "Data subjects may encounter significant inconveniences, which they will be able to overcome despite a few difficulties. For example:<br>- physical : minor physical ailments (minor illness due to disregard of contraindications), defamation resulting in physical or psychological retaliation, etc.;<br>- material : unanticipated payments (fines imposed erroneously), denial of access to administrative or commercial services, receipt of unsolicited targeted mailings likely to damage the reputation of data subjects, etc.;<br>- moral : minor but objective psychological ailments, feeling of invasion of privacy without irreversible damage, intimidation on social networks, etc.",
+        "name": "Impacto limitado",
+        "description": "Os titulares de dados podem encontrar inconvenientes significativos, que poderão superar apesar de algumas dificuldades. Por exemplo:<br>- físico : doenças físicas menores (doença menor devido ao desrespeito às contra-indicações), difamação resultando em retaliação física ou psicológica, etc.;<br>- material : pagamentos imprevistos (multas impostas erradamente), recusa de acesso a serviços administrativos ou comerciais, recepção de correspondências diretas não solicitadas susceptíveis de prejudicar a reputação dos titulares de dados, etc.;<br>- moral : doenças psicológicas menores, mas objetivas, sentimento de invasão de privacidade sem danos irreversíveis, intimidação nas redes sociais, etc.",
         "source": "PIAF Connected objects p41 - WIKI"
       },
       "PIA_EX_IMPI": {
-        "name": "Significant impact",
-        "description": "Data subjects may encounter significant consequences, which they should be able to overcome albeit with real and serious difficulties. For example: <br>- physical : serious physical ailments causing long-term harm (worsening of health due to improper care, or disregard of contraindications), lteration of physical integrity for example following an assault, an accident at home, work, etc.<br>- material : misappropriation of money not compensated, targeted, unique and non-recurring, lost opportunities  (home loan, refusal of studies, internships or employment, examination ban), loss of housing, loss of employment, etc.;<br>- moral : serious psychological ailments (depression, development of a phobia), feeling of invasion of privacy with irreversible damage, victim of blackmailing, cyberbullying and harassment, etc.",
+        "name": "Impacto significativo",
+        "description": "Os titulares de dados podem encontrar consequências significativas, que devem ser capazes de superar, embora com dificuldades reais e graves. Por exemplo: <br> - físico: doenças físicas graves que causam danos a longo prazo (agravamento da saúde devido a cuidados inadequados, ou desconsideração de contraindicações), lteração da integridade física, por exemplo, após um assalto, um acidente em casa, trabalho, etc. <br>material: apropriação indevida de dinheiro não compensado, direcionado, único e não recorrente, oportunidades perdidas (empréstimo imobiliário, recusa de estudos, estágios ou emprego, proibição de exame), perda de moradia, perda de emprego, etc;<br> - moral: doenças psicológicas graves (depressão, desenvolvimento de fobia), sensação de invasão de privacidade com danos irreversíveis, vítima de chantagem, cyberbullying e assédio, etc.",
         "source": "PIAF Connected objects p41 - WIKI"
       },
       "PIA_EX_IMPM": {
-        "name": "Maximum impact",
-        "description": "Data subjects may encounter significant, or even irreversible, consequences, which they may not overcome. For example:<br>- physical : long-term or permanent physical ailments, permanent impairment of physical integrity, death;<br>- material : financial risk, substantial debts, inability to work, inability to relocate, loss of evidence in the context of litigation, loss of access to vital infrastructure (water, electricity), etc.<br>- moral : long-term or permanent psychological ailments, criminal penalty, abduction, loss of family ties, inability to sue, change of administrative status and/or loss of legal autonomy (guardianship), etc.",
+        "name": "Impacto máximo",
+        "description": "Os titulares dos dados podem encontrar consequências significativas, ou mesmo irreversíveis, que podem não superar. Por exemplo:<br>- física: doenças físicas permanentes ou a longo prazo, comprometimento permanente da integridade física, morte; <br> - material: risco financeiro, dívidas substanciais, incapacidade para o trabalho, incapacidade de realocação, perda de provas no contexto de litígios, perda de acesso a infraestruturas vitais (água, electricidade), etc. <br> - moral: doenças psicológicas a longo prazo ou permanentes, pena criminal, rapto, perda de laços familiares, incapacidade de processar, mudança de estatuto administrativo e/ou perda de autonomia legal (tutela), etc.",
         "source": "PIAF Connected objects p41 - WIKI"
       },
       "PIA_EX_VRAN": {
-        "name": "Negligible likelihood",
-        "description": "It does not seem possible for the selected risk sources to materialize the threat by exploiting the properties of supporting assets (e.g.: theft of paper documents stored in a room protected by a badge reader and access code).",
+        "name": "Probabilidade insignificante",
+        "description": "Não parece possível que as fontes de risco selecionadas materializem a ameaça explorando as propriedades de ativos de suporte (por exemplo, roubo de documentos em papel armazenados em uma sala protegida por um leitor de crachá e código de acesso).",
         "source": "PIAF Connected objects p44 - WIKI"
       },
       "PIA_EX_VRAL": {
-        "name": "Limited likelihood",
-        "description": "It seems difficult for the selected risk sources to materialize the threat by exploiting the properties of supporting assets (e.g.: theft of paper documents stored in a room protected by a badge reader).",
+        "name": "Probabilidade limitada",
+        "description": "Parece difícil para as fontes de risco selecionadas materializar a ameaça explorando as propriedades dos ativos de suporte (por exemplo, roubo de documentos em papel armazenados em uma sala protegida por um leitor de crachá).",
         "source": "PIAF Connected objects p44 - WIKI"
       },
       "PIA_EX_VRAI": {
-        "name": "Significant likelihood",
-        "description": "It seems possible for the selected risk sources to materialize the threat by exploiting the properties of supporting assets (e.g.: theft of paper documents stored in offices that cannot be accessed without first checking in at the reception).",
+        "name": "Probabilidade significativa",
+        "description": "Parece possível que as fontes de risco selecionadas materializem a ameaça explorando as propriedades de ativos de suporte (por exemplo, roubo de documentos em papel armazenados em escritórios que não podem ser acessados sem primeiro fazer o check-in na receção).",
         "source": "PIAF Connected objects p44 - WIKI"
       },
       "PIA_EX_VRAM": {
-        "name": "Maximum likelihood",
-        "description": "It seems extremely easy for the selected risk sources to materialize the threat by exploiting the properties of supporting assets (e.g.: theft of paper documents stored in the public lobby).",
+        "name": "Probabilidade máxima",
+        "description": "Parece extremamente fácil para as fontes de risco selecionadas materializar a ameaça, explorando as propriedades de ativos de suporte (por exemplo, roubo de documentos em papel armazenados no átrio público).",
         "source": "PIAF Connected objects p44 - WIKI"
       },
       "PIA_EX_MIND": {
-        "name": "Minimisation of data themselves",
-        "description": "Reduce the severity of risks by minimising the data themselves, by taking measures aimed at reducing their sensitivity.",
+        "name": "Minimização dos dados em si",
+        "description": "Reduzir a gravidade dos riscos, minimizando os dados em si, tomando medidas destinadas a reduzir a sua sensibilidade.",
         "source": "Mesures_US"
       },
       "PIA_DEF_ANO": {
-        "name": "Anonymisation",
-        "description": "Process removing the identifying characteristics from personal data. To assess the robustness of an anonymisation processes, see the <a target=\"_blank\" href=\"http://ec.europa.eu/justice/data-protection/article-29/documentation/opinion-recommendation/files/2014/wp216_en.pdf\">WP29 guidelines</a>.",
+        "name": "Anonimização",
+        "description": "Processo de remoção das características de identificação dos dados pessoais. Avaliar a robustez de um processo de anonimização, ver o <a target=\"_blank\" href=\"http://ec.europa.eu/justice/data-protection/article-29/documentation/opinion-recommendation/files/2014/wp216_en.pdf\">diretrizes do WP29</a>.",
         "source": "Mesures_US and G29 guidelines http://ec.europa.eu/justice/data-protection/article-29/documentation/opinion-recommendation/files/2014/wp216_en.pdf"
       },
       "PIA_SEC_CTR": {
-        "placeholder": "Describe here specific measures for processors (host, maintenance company, administrator, specialist service providers, etc.)",
-        "name": "Processing contracts",
+        "placeholder": "Descreva aqui medidas específicas para processadores (hospedeiro, empresa de manutenção, administrador, fornecedores de serviços especializados, etc.)",
+        "name": "Processando contratos",
         "source": "Mesures_US Procurement: identified and governed by a contract"
       },
       "PIA_DEF_CHIF": {
