@@ -76,8 +76,8 @@
           "export": "Exportar",
           "more_options": "Mais opções",
           "duplicate": "Duplicar",
-          "action_plan": "Mostrar<br>plano de ação",
-          "pia": "Mostrar<br>PIA",
+          "action_plan": "Exibir<br>plano de ação",
+          "pia": "Exibir<br>PIA",
           "remove": "Apagar"
         },
         "edit_pia": "Editar PIA",
@@ -100,8 +100,8 @@
           "edit": "Editar",
           "export": "Exportar",
           "duplicate": "Duplicar",
-          "action_plan": "Mostrar plano de ação",
-          "pia": "Mostrar PIA",
+          "action_plan": "Exibir plano de ação",
+          "pia": "Exibir PIA",
           "remove": "Apagar"
         }
       }
@@ -118,7 +118,7 @@
     },
     "header": {
       "preview": "Previsão",
-      "display_action_plan": "Mostrar<br>plano de ação",
+      "display_action_plan": "Exibir<br>plano de ação",
       "edition": "Edição",
       "evaluation": "Avaliação"
     },
@@ -654,7 +654,7 @@
         "source": "PIAF Connected objects p41 - WIKI"
       },
       "PIA_EX_IMPI": {
-        "name": "Impacto significativo",
+        "name": "Impacto significante",
         "description": "Os titulares de dados podem encontrar consequências significativas, que devem ser capazes de superar, embora com dificuldades reais e graves. Por exemplo: <br> - físico: doenças físicas graves que causam danos a longo prazo (agravamento da saúde devido a cuidados inadequados, ou desconsideração de contraindicações), lteração da integridade física, por exemplo, após um assalto, um acidente em casa, trabalho, etc. <br>material: apropriação indevida de dinheiro não compensado, direcionado, único e não recorrente, oportunidades perdidas (empréstimo imobiliário, recusa de estudos, estágios ou emprego, proibição de exame), perda de moradia, perda de emprego, etc;<br> - moral: doenças psicológicas graves (depressão, desenvolvimento de fobia), sensação de invasão de privacidade com danos irreversíveis, vítima de chantagem, cyberbullying e assédio, etc.",
         "source": "PIAF Connected objects p41 - WIKI"
       },
@@ -674,7 +674,7 @@
         "source": "PIAF Connected objects p44 - WIKI"
       },
       "PIA_EX_VRAI": {
-        "name": "Probabilidade significativa",
+        "name": "Probabilidade significante",
         "description": "Parece possível que as fontes de risco selecionadas materializem a ameaça explorando as propriedades de ativos de suporte (por exemplo, roubo de documentos em papel armazenados em escritórios que não podem ser acessados sem primeiro fazer o check-in na receção).",
         "source": "PIAF Connected objects p44 - WIKI"
       },
@@ -699,194 +699,194 @@
         "source": "Mesures_US Procurement: identified and governed by a contract"
       },
       "PIA_DEF_CHIF": {
-        "name": "Encryption",
-        "description": "Measure making personal data unintelligible to anyone without access authorization (symmetric or asymmetric encryption, use of public algorithms known to be strong, authentication certificate, etc.).",
+        "name": "Encriptação",
+        "description": "Medir dados pessoais ininteligíveis para qualquer pessoa sem autorização de acesso (criptografia simétrica ou assimétrica, uso de algoritmos públicos conhecidos como fortes, certificado de autenticação, etc.).",
         "source " : "Mesures_US Encryption"
       },
       "PIA_DEF_PWD": {
-        "name": "Password",
-        "description": "Passwords shall be composed of a minimum of eight characters; must be renewed if there is the least concern that they may have been compromised and, possibly, periodically (every six months or once a year) and must include a minimum of three of the four kinds of characters (capital letters, lower case letters, numerals and special characters); when a password is changed, the last five passwords may not be reused; the same password should not be used for different accesses; passwords should not be related to one's personal information (including name or date of birth.). Define a maximum number of attempts beyond which a warning is issued and authentication is blocked (temporarily or until it is manually unblocked).",
+        "name": "Senha",
+        "description": "As senhas devem ser compostas de oito caracteres, no mínimo; devem ser renovadas se houver a mínima preocupação de que possam ter sido comprometidas e, possivelmente, periodicamente (a cada seis meses ou uma vez por ano) e devem incluir no mínimo três dos quatro tipos de caracteres (maiúsculas, minúsculas, numerais e caracteres especiais); quando uma senha é alterada, as últimas cinco senhas não podem ser reutilizadas; a mesma senha não deve ser usada para acessos diferentes; as senhas não devem estar relacionadas às informações pessoais (incluindo nome ou data de nascimento). Defina um número máximo de tentativas além do qual um aviso é emitido e a autenticação é bloqueada (temporariamente ou até que seja manualmente desbloqueada).",
         "source" : "Mesure_US"
       },
       "PIA_DEF_AUTH": {
-        "name": "Authentication",
-        "description": "Every person with legitimate access to personal data (employees, contracting parties and other third parties) should be identified by a unique identifier. Choose an authentication method to open sessions that is appropriate to the context, the risk level and the robustness expected. Recommendations: if the risks are not elevated, a password may be used; however, if the risks are higher, use a one-time password token but change the default activation password, or, when part of the password is sent by SMS, a card with a PIN code, an electronic certificate or any other form of strong authentication.",
+        "name": "Autenticação",
+        "description": "Todas as pessoas com acesso legítimo a dados pessoais (funcionários, partes contratantes e outros terceiros) devem ser identificadas por um identificador único. Escolha um método de autenticação para abrir sessões apropriadas ao contexto, ao nível de risco e à robustez esperada. Recomendações: se os riscos não forem elevados, uma senha pode ser usada; no entanto, se os riscos forem maiores, use um token de senha descartável, mas altere a senha de ativação padrão ou, quando parte da senha for enviada por SMS, um cartão com um código PIN, um certificado eletrónico ou qualquer outra forma de autenticação.",
         "source": "Mesures_US Logical Access Control"
       },
       "PIA_DEF_LOG": {
-        "name": "Surveillance",
-        "description": "Set up a logging architecture to allow early detection of incidents involving personal data and to have information that can be used to analyze them or provide proof in connection with investigations.",
+        "name": "Vigilância",
+        "description": "Configurar uma arquitetura de registo para permitir a deteção precoce de incidentes envolvendo dados pessoais e para ter informações que possam ser usadas para analisá-los ou fornecer provas relacionadas a investigações.",
         "source": "Mesures_US Surveillance"
       },
       "PIA_DEF_ARCH": {
-        "name": "Archiving",
-        "description": "Procedures preserving and managing the electronic archives containing the personal data intended to ensure their value (specifically, their legal value) throughout the entire period necessary (transfer, storage, migration, accessibility, elimination, archiving policy, protection of confidentiality, etc.).",
+        "name": "Arquivamento",
+        "description": "Procedimentos que preservam e gerenciam os arquivos eletrónicos contendo os dados pessoais destinados a garantir seu valor (especificamente, seu valor legal) durante todo o período necessário (transferência, armazenamento, migração, acessibilidade, eliminação, política de arquivamento, proteção de confidencialidade, etc.).",
         "source": "Mesures_USE Archiving"
       }
     }
   },
   "comments": {
-    "comments_count": "comment(s)",
-    "new_comment": "Comment",
-    "placeholder_new_comment": "Leave a comment",
-    "comment": "Comment",
-    "send": "Send"
+    "comments_count": "comentário(s)",
+    "new_comment": "Comentário",
+    "placeholder_new_comment": "Deixe um comentário",
+    "comment": "Comentar",
+    "send": "Enviar"
   },
   "questions": {
-    "edit": "Edit question",
+    "edit": "Editar questão",
     "gauges": {
-      "0": "(Undefined)",
-      "1": "Negligible",
-      "2": "Limited",
-      "3": "Important",
-      "4": "Maximum"
+      "0": "(Indefinido)",
+      "1": "Insignificante",
+      "2": "Limitado",
+      "3": "Significante",
+      "4": "Máximo"
     }
   },
   "evaluations": {
-    "title": "Evaluation",
-    "to_correct": "To correct",
-    "improvable": "Improvable",
-    "acceptable": "Acceptable",
-    "evaluation_comment": "Evaluation comment",
-    "action_plan_comment": "Action plan / corrective actions",
-    "placeholder_to_correct": "The information provided are not sufficient to properly evaluate them. Send back to the editor to improve the original submission.",
-    "placeholder_improvable1": "According to the available information, additional measures are to be implemented in order to improve the data protection of the processing.",
-    "placeholder_improvable2": "Enter your comments.",
-    "placeholder_acceptable": "According to the available information, the measures implemented are adequate to properly meet the requirements for protecting the data.",
+    "title": "Avaliação",
+    "to_correct": "A corrigir",
+    "improvable": "Improvável",
+    "acceptable": "Aceitável",
+    "evaluation_comment": "Comentário de avaliação",
+    "action_plan_comment": "Plano de ação/ações corretivas",
+    "placeholder_to_correct": "As informações fornecidas não são suficientes para avaliá-las corretamente. Envie de volta ao editor para melhorar a submissão original.",
+    "placeholder_improvable1": "De acordo com as informações disponíveis, devem ser implementadas medidas adicionais para melhorar a protecção dos dados do tratamento.",
+    "placeholder_improvable2": "Digite seus comentários.",
+    "placeholder_acceptable": "De acordo com as informações disponíveis, as medidas implementadas são adequadas para atender apropriadamente aos requisitos de proteção dos dados.",
     "gauges": {
-      "seriousness": "Taking into account the action plan, how do you re-evaluate the <span class='red-highlight'>seriousness of this risk</span> ({{value}})?",
-      "likelihood": "Taking into account the action plan, how do you re-evaluate the <span class='red-highlight'>likelihood of this risk</span> ({{value}})?",
-      "0": "(Undefined)",
-      "1": "Negligible",
-      "2": "Limited",
-      "3": "Important",
-      "4": "Maximum"
+      "seriousness": "Tendo em conta o plano de ação, como você reavalia a <span class='red-highlight'>gravidade deste risco</span> ({{value}})?",
+      "likelihood": "Tendo em conta o plano de ação, como você reavalia a <span class='red-highlight'>probabilidade deste risco</span> ({{value}})?",
+      "0": "(Indefinido)",
+      "1": "Insignificante",
+      "2": "Limitado",
+      "3": "Importante",
+      "4": "Máximo"
     },
     "status": {
-      "0": "Pending",
-      "1": "To correct",
-      "2": "Improvable",
-      "3": "Acceptable"
+      "0": "Pendente",
+      "1": "A corrigir",
+      "2": "Improvável",
+      "3": "Aceitável"
     }
   },
   "help": {
-    "title": "Help",
+    "title": "Ajuda",
     "definition": {
       "data1": {
-        "title": "Use the PIA tool",
-        "content": "Content being written"
+        "title": "Usa a ferramente PIA",
+        "content": "Contéudo sendo escrito"
       },
       "data2": {
-        "title": "Known Issues",
+        "title": "Problemas conhecidos",
         "qa1": {
-          "title": "I get display issues such as icons being stuck in one state or missing elements from the interface",
-          "content": "When encountering those display issues, close the application and reload it. It usually fixes the issue. You won’t lose the information you have entered ; it is  automatically saved as you type."
+          "title": "Eu recebo problemas de exibição, como ícones que estão presos em um estado ou elementos ausentes da interface",
+          "content": "Ao encontrar esses problemas de exibição, feche o aplicativo e recarregue-o. Normalmente corrige o problema. Você não perderá as informações inseridas; ele é salvo automaticamente enquanto você digita."
         },
         "qa2": {
-          "title": "I can’t edit the gauges for evaluating the severity and likelihood of a risk",
-          "content": "This known issue is currently being fixed. If you encounter this problem, we recommend that you fill in the justification field of the estimated level of severity and / or likelihood. You will be able to edit the gauge once the bug is fixed."
+          "title": "Não consigo editar os medidores para avaliar a gravidade e a probabilidade de um risco",
+          "content": "Esse problema conhecido está sendo corrigido no momento. Se você encontrar esse problema, recomendamos que você preencha o campo de justificação do nível estimado de gravidade e/ou probabilidade. Você poderá editar o medidor assim que o bug for corrigido."
         },
         "qa3": {
-          "title": "I encounter issues when importing a PIA",
-          "content": "Several bugs have been observed when importing a PIA, and in particular the level gauges for evaluating the severity and likelihood of a risk may disappear. In this case, please refer to the above mentioned issue. Besides, a PIA may not appear on the dashboard after importing it. This is a display issue and you just need to refresh the page."
+          "title": "Eu encontro problemas ao importar um PIA",
+          "content": "Vários erros foram observados durante a importação de uma PIA e, em particular, os indicadores de nível para avaliar a gravidade e a probabilidade de um risco podem desaparecer. Neste caso, por favor, consulte o problema acima mencionado. Além disso, um PIA pode não aparecer no painel depois de importá-lo. Este é um problema de exibição e você só precisa atualizar a página."
         },
         "qa4": {
-          "title": "When I copy / paste text, it is highlighted.",
-          "content": "This is only a display bug and it has no effect on the text you enter in a field. This visual problem will be fixed soon."
+          "title": "Quando copio/colo texto, ele é sublinhado.",
+          "content": "Este é apenas um bug de exibição e não afeta o texto digitado em um campo. Este problema visual será corrigido em breve."
         },
         "qa5": {
-          "title": "I can’t evaluate a section",
-          "content": "In order to evaluate a section, it is mandatory to fill in all the fields. Please check if this is the case. When editing a risk, you must have at least one technical or organizational measure that mitigates the risk in order to ask for an evaluation of the risk."
+          "title": "Não consigo avaliar uma seção",
+          "content": "Para avaliar uma seção, é obrigatório preencher todos os campos. Por favor, verifique se este é o caso. Ao editar um risco, você deve ter pelo menos uma medida técnica ou organizacional que mitigue o risco, a fim de solicitar uma avaliação do risco."
         },
         "qa6": {
-          "title": "When switching language, the texts are not translated",
-          "content": "Please close the PIA you are editing and re-open it. The content should then be displayed in the language you have selected."
+          "title": "Ao trocar de idioma, os textos não são traduzidos",
+          "content": "Por favor, feche o PIA que você está editando e abra-o novamente. O conteúdo deve então ser exibido no idioma que você selecionou."
         },
         "qa7": {
-          "title": "I have refused to validate a PIA but I don’t know what to do now",
-          "content": "For the moment, the navigation menu icons are not refreshed after refusing a PIA. You have to check each section and change the information and/or evaluation according to the reasons for refusing the PIA. Once all section have been reviewed, you should be able to request PIA validation again."
+          "title": "Recusei a validar uma PIA mas não sei o que fazer agora",
+          "content": "No momento, os ícones do menu de navegação não são atualizados após recusar um PIA. Você deve verificar cada seção e alterar as informações e/ou avaliações de acordo com as razões para recusar a PIA. Depois de toda a seção tiver sido revisada, você poderá solicitar a validação da PIA novamente."
         }
       },
       "footer": ""
     }
   },
   "about": {
-    "title": "About the Tool PIA",
-    "version_number": "Version number",
-    "description": "This tool is originally designed by the <a target=\"_blank\" href=\"https://www.cnil.fr\">Commission Nationale Informatique et Liberté (CNIL)</a>, the French Data Protection Authority, to help data processor to be compliant with the GDPR.<br>This software is free and open. If you wish to get involved in this project, you are welcome to download the source code from Github, modify it and share it with the community.",
-    "translators": "The PIA software is currently available in five languages. The French and English versions are provided by the CNIL. The others versions result from the contributions of the following individuals:",
-    "translators_name": "<ul><li>Dutch: Ruud van Driel, Manuel d’Orso ;</li><li>Czech: Jiří Grohmann, Manuel d’Orso ;</li><li>Italian: Manuel d’Orso, Gianluca Markos.</li><li>Polish: Joanna Karczewska</li><li>German: Kosmas Schütz</li><li>Spanish: ylachgar</li></ul>",
-    "contribute": "If you wish to contribute to the translation of the software in another language or improve the existing translations, we recommend you to <a href=\"https://github.com/LINCnil/pia/tree/master/src/assets/i18n\" target=\"_blank\">read the page describing the steps to follow</a>.",
-    "licences": "Library licences:"
+    "title": "Sobre a Ferramenta PIA",
+    "version_number": "Número da versão",
+    "description": "Esta ferramenta é originalmente desenhada pelo <a target=\"_blank\" href=\"https://www.cnil.fr\">Comissão Nacional da Informática e Liberdade (CNIL)</a>, Autoridade Francesa de Proteção de Dados, para ajudar o processador de dados a ser compatível com o GDPR.<br>Este software é gratuito e aberto. Se você deseja se envolver neste projeto, você pode baixar o código fonte do Github, modificá-lo e compartilhá-lo com a comunidade.",
+    "translators": "O software PIA está atualmente disponível em cinco idiomas. As versões francesa e inglesa são fornecidas pelo CNIL. As outras versões resultam das contribuições dos seguintes indivíduos:",
+    "translators_name": "<ul><li>Holandês: Ruud van Driel, Manuel d’Orso ;</li><li>Checo: Jiří Grohmann, Manuel d’Orso ;</li><li>Italiano: Manuel d’Orso, Gianluca Markos.</li><li>Polaco: Joanna Karczewska</li><li>Alemão: Kosmas Schütz</li><li>Espanhol: ylachgar</li></ul>",
+    "contribute": "Se você deseja contribuir com a tradução do software em outro idioma ou melhorar as traduções existentes, recomendamos que você <a href=\"https://github.com/LINCnil/pia/tree/master/src/assets/i18n\" target=\"_blank\">leia a página descrevendo os passos a seguir</a>.",
+    "licences": "Licensas das bibliotecas:"
   },
   "settings": {
-    "title": "Settings",
-    "content": "Please, provide the address (URL) of the remote server:",
-    "update": "Update URL"
+    "title": "Configurações",
+    "content": "Por favor, forneça o endereço (URL) do servidor remoto:",
+    "update": "Atualizar URL"
   },
   "validation_page": {
-    "responsible": "Person accountable for validating the PIA: ",
-    "after_reading": "After reading full PIA relating to the data processing linked to ",
-    "confirmation1": "I attest that the context of the processing described in the PIA is consistent with the reality.",
-    "confirmation2": "I attest that I am aware of the risks depending on the existing or planned measures.",
-    "confirmation3": "I ratify the corrective actions indicated in the action plan.",
-    "confirmation4": "I commit to implement as quickly as possible the indicated corrective actions.",
+    "responsible": "Responsável pela validação do PIA:",
+    "after_reading": "Depois de ler a PIA completa relativa ao processamento de dados ligado a",
+    "confirmation1": "Eu atesto que o contexto do processamento descrito na PIA é consistente com a realidade.",
+    "confirmation2": "Eu atesto que estou ciente dos riscos dependendo das medidas existentes ou planeadas.",
+    "confirmation3": "Ratifico as ações corretivas indicadas no plano de ação.",
+    "confirmation4": "Eu me comprometo a implementar o mais rápido possível as ações corretivas indicadas.",
     "button": {
-      "rejection": "Reject PIA",
-      "simple_validation": "Approve PIA <br>(direct)",
-      "signed_validation": "Approve PIA <br>(signed)"
+      "rejection": "Rejeitar PIA",
+      "simple_validation": "Aprovar PIA <br>(direto)",
+      "signed_validation": "Aprovar PIA <br>(assinado)"
     },
-    "mandatory_fields": "All boxes must be checked",
-    "waiting_for_signature": "Pending signed PIA",
-    "validated_pia_with_signature": "Approved",
-    "add_signed_pia": "Add the signed PIA",
-    "remove_attachment": "Remove the attachment",
-    "latest_signed_attachment": "Last signed attachment",
-    "signed_attachments_history": "Signed attachments history",
+    "mandatory_fields": "Todas as caixas devem ser verificadas",
+    "waiting_for_signature": "PIA subscrita pendente",
+    "validated_pia_with_signature": "Aprovado",
+    "add_signed_pia": "Adicionar a PIA subscrita",
+    "remove_attachment": "Remover o anexo",
+    "latest_signed_attachment": "Último anexo subscrito",
+    "signed_attachments_history": "Histórico de anexos subscritos",
     "tools": {
-      "dashboard": "Dashboard",
-      "display_pia": "Display PIA",
-      "action_plan": "Action plan"
+      "dashboard": "Painel",
+      "display_pia": "Exibir PIA",
+      "action_plan": "Plano de ação"
     }
   },
   "rejection_page": {
-    "title": "Validation history",
-    "rejection_reason": "Refusal reason",
-    "rejection_reason_placeholder": "Describe the reasons for refusing the PIA.",
-    "applied_adjustments": "Adjustments proposed",
-    "applied_adjustments_placeholder": "Describe the changes brought to the PIA.",
-    "previous_rejection": "Previous refusal",
+    "title": "História de validação",
+    "rejection_reason": "Motivo de recusa",
+    "rejection_reason_placeholder": "Descrever os motivos da recusa de PIA.",
+    "applied_adjustments": "Ajustamentos propostos",
+    "applied_adjustments_placeholder": "Descrever as mudanças trazidas para PIA.",
+    "previous_rejection": "Recusa anterior",
     "button": {
-      "abandon_treatment": "Abandon processing",
-      "reject_pia": "Reject PIA",
-      "send_for_validation": "Resend for approval"
+      "abandon_treatment": "Abandono do tratamento",
+      "reject_pia": "Rejeitar PIA",
+      "send_for_validation": "Reenvio para aprovação"
     }
   },
   "misc": {
-    "display": "Show / Hide"
+    "display": "Mostrar/Esconder"
   },
   "modals": {
-    "cancel": "Cancel",
-    "archive": "Archive",
-    "close": "Close",
-    "continue": "Continue",
-    "start_evaluation": "Start review",
-    "back_to_home": "Back to home",
+    "cancel": "Cancelar",
+    "archive": "Arquivar",
+    "close": "Fechar",
+    "continue": "Continuar",
+    "start_evaluation": "Começar revisão",
+    "back_to_home": "Voltar para o menu",
     "simple_pia_validation": {
-      "content": "The PIA has been validated."
+      "content": "A PIA tem sido validada."
     },
     "completed_edition": {
-      "content": "The PIA has been fully edited, it has to be reviewed."
+      "content": "A PIA foi totalmente editada, tem que ser revisada."
     },
     "completed_evaluation": {
-      "content": "The PIA has been fully reviewed, it has to be validated."
+      "content": "A PIA foi totalmente revisada, tem que ser validada."
     },
     "update_server_url": {
-      "content": "The server address has been updated."
+      "content": "O endereço do servidor foi atualizado."
     },
     "signed_pia_validation": {
-      "content": "<span class='strong'>The PIA is accepted</span><br>Finalize the validation of the PIA by attaching<br>the signed report by the person in charge.",
-      "download_pia": "Download PIA report"
+      "content": "<span class='strong'>A PIA é aceite</span><br>Finalize a validação da PIA anexando<br>o relatório assinado pela pessoa responsável.",
+      "download_pia": "Descarregar o relatório PIA"
     },
     "abandon_pia": {
       "content": "Are you sure you want to<br>give up this treatment?"
